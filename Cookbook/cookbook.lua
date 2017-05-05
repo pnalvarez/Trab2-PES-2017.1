@@ -68,7 +68,7 @@ end
 function frequencies()
 	assert(words ~= nil, "words nulo")
     word_freqs = {}
-
+    
     for k, word in ipairs(words) do
         if word_freqs[word] ~= nil then
             word_freqs[word].frequency = word_freqs[word].frequency + 1
@@ -91,13 +91,6 @@ function sort()
 
 	word_freqs = frequencies
 end
-
-function print_prefered_words()
-	for i =0,25 do table.insert(filter,word_freqs[i]) end
-	for k,v in pairs(word_freqs) do io.write(v.word.."-"..v.frequency) end
-end
-
-fuction print
 --[[Parte 3: Programa principal--]]
 
 read_file(arg[1])
@@ -106,7 +99,9 @@ scan()
 remove_stop_words()
 frequencies()
 sort()
-print_prefered_words
+
+for i =0,25 do table.insert(filter,word_freqs[i]) end
+for k,v in pairs(word_freqs) do io.write(v.word.."-"..v.frequency) end
 
 
 

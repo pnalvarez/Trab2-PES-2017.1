@@ -105,5 +105,5 @@ scan()
 remove_stop_words()
 frequencies()
 sort()
-print_prefered_words
+print_prefered_words()
 

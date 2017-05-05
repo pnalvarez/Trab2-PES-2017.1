@@ -4,4 +4,9 @@ Este é um projeto da disciplina INF1629-Principios em Engenharia de Software, q
 na linguagem Python segundo 4 estilos e traduzi-los para Lua visando obedecer as 6 regras de disciplina ensinadas em aula.
 
 Autores:  Pedro Alvarez
+
+
+
+
+
           Felipe Miranda

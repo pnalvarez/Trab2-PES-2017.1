@@ -97,7 +97,6 @@ function print_prefered_words()
 	for k,v in pairs(word_freqs) do io.write(v.word.."-"..v.frequency) end
 end
 
-fuction print
 --[[Parte 3: Programa principal--]]
 
 read_file(arg[1])
@@ -107,9 +106,4 @@ remove_stop_words()
 frequencies()
 sort()
 print_prefered_words
-
-
-
-
-
 

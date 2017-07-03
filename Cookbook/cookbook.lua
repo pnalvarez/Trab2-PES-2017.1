@@ -106,3 +106,6 @@ remove_stop_words()
 frequencies()
 sort()
 print_prefered_words()
+
+
+-- ver comentarios no pull-request (Roxana)

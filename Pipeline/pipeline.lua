@@ -111,3 +111,4 @@ end
 
 --[Main]--
 print_all(sort(frequencies(remove_stop_words(scan(filter_chars_and_normalize(read_file(arg[1])))))))
+--ver comentarios em pull-request (Roxana)

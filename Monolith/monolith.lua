@@ -60,3 +60,5 @@ file= io.open("../pride-and-prejudice.txt", "r")
 
     for i =0,25 do table.insert(filter,word_freqs[i]) end
     for k,v in pairs(word_freqs) do io.write(v.word.."-"..v.frequency) end
+
+-- ver comentarios no pull-request (Roxana)
